@@ -6,13 +6,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>com.Fazdate</groupId>
     <artifactId>BudgetTracket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BudgetTracket</name>
-    <description>BudgetTracket</description>
+    <name>BudgetTracker</name>
+    <description>BudgetTracker</description>
     <properties>
         <java.version>19</java.version>
     </properties>
@@ -21,7 +21,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -11,7 +11,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.idea/*
 # AWS User-specific
 .idea/**/aws.xml
 
@@ -141,3 +141,10 @@ hs_err_pid*
 replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.resourceCache/ECBHistoric90RateProvider.dat
+.resourceCache/ECBCurrentRateProvider.dat
+target/classes/application.properties
+BudgetTracker.iml

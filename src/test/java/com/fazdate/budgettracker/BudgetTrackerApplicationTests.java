@@ -1,10 +1,10 @@
-package com.fazdate.budgettracket;
+package com.fazdate.budgettracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BudgetTracketApplicationTests {
+class BudgetTrackerApplicationTests {
 
     @Test
     void contextLoads() {
